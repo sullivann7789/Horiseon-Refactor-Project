@@ -8,3 +8,7 @@
 - The code, in both HTML, and CSS, is better functioning, and more organized for developers and users alike. 
 
 - A bug was identified particularly in the <href> function of the search engine optimization head title. Now it is functioning properly. 
+
+https://sullivann7789.github.io/Horiseon-Refactor-Project/
+
+
