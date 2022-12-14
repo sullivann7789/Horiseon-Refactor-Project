@@ -9,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header { padding: 20px;
+header { padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -192,4 +192,82 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+@media (max-width: 960px) {
+    .header {
+        padding-bottom: 70px;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        display: inline-block;
+        text-align: center;
+    }
+    figure {
+        height: 500px;
+        width: auto;
+    }
+    .float-left {
+        height: 90px;
+        margin-right: 15px;
+    }
+    .float-right {
+        height: 90px;
+        margin-left: 15px;
+    }
+    .search-engine-optimization h2 {
+        font-size: 25px;
+    }
+    .online-reputation-management h2 {
+        font-size: 25px;
+    }
+    .social-media-marketing h2 {
+        font-size: 25px;
+    }
+    .social-media-marketing {
+        height: 250px;
+        margin-bottom: none;
+        margin-right: none;
+        margin-left: none;
+        padding: 20px;
+
+    }
+    .search-engine-optimization {
+        height: 250px;
+        margin-bottom: none;
+        margin-right: none;
+        margin-left: none;
+        padding: 20px;
+
+    }
+    .online-reputation-management {
+        height: 250px;
+        margin-bottom: none;
+        margin-right: none;
+        margin-left: none;
+        padding: 20px;
+
+    }
+    main {
+        width: 70%;
+    }
+    aside {
+        padding: 1.3%;
+        width: 25%;
+        margin-right: 5px;
+    }
+    aside p {
+        font-size: 14px;
+    }
+    .benefit-cost img {
+        max-width: 80px;
+    }
+    .benefit-brand img {
+        max-width: 80px;
+    }
+    .benefit-lead img {
+        max-width: 80px;
+    }
 }
