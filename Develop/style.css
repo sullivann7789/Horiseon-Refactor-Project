@@ -16,12 +16,14 @@ body {
 }
 
 h1 { display: inline-block;
-     font-size: 48px;
-     .seo {
-            color: #d9dcd6;}
+    font-size: 48px;
 }
 
-.header div {
+.seo {
+    color: #d9dcd6;
+}
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,17 +31,17 @@ h1 { display: inline-block;
     font-size: 20px;
 }
 
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
+nav ul a {
     text-decoration: none;
+    color: #ffffff;
 }
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -48,7 +50,7 @@ a {
     background-position: center;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -122,7 +124,7 @@ p {
     max-height: 200px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -181,13 +183,13 @@ p {
     color: #ffffff;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
